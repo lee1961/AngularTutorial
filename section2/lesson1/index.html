@@ -22,12 +22,12 @@
 
 
 <div class="container main-content" ng-controller="PersonsController">
-    <div class="row" >
-        <div class="col-md-8">
+    <!-- <div class="row" >
+        <div class="col-md-8"> -->
     <table class="table table-bordered">
         <tr>
             <th> #</th>
-            <th> Name <th>
+            <th> Name </th>
             <th> Email </th>
             <th> Birthday </th>
         </tr>
@@ -37,14 +37,6 @@
             <td> {{ person.email }}</td>
             <td>  {{person.birthdate | date:"longDate" }}</td>
         </tr>
-
-    </div>
-    <div class="col-md-4">
-    </div>
-
-    </div>
-
-
     </table>
 </div >
 
